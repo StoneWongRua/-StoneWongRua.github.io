@@ -169,7 +169,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("data-counturl", "http://home.ustc.edu.cn/~hejiyan/flxg");
   tweet.textContent = "Tweet";
 
-  var text = "我为某坑壮大工科势力分数 " + this.score + " ，这是坠好滴！！ ";
+  var text = "我为网三壮大势力分数 " + this.score + " ，这是坠好滴！！ ";
   tweet.setAttribute("data-text", text);
 
   return tweet;
